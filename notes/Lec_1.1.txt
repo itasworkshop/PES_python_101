@@ -1,3 +1,97 @@
 Python
 
 what is python?
+
+>>> print("hello world")
+hello world
+>>> print("hello world how are you?")
+hello world how are you?
+>>> print('hello world how are you?')
+hello world how are you?
+>>> a = 10
+>>> a
+10
+>>> a = 20
+>>> a
+20
+>>> a = 'morning'
+>>> a
+'morning'
+>>> a = 'morning
+  File "<stdin>", line 1
+    a = 'morning
+                ^
+SyntaxError: EOL while scanning string literal
+>>> a = 'm'
+>>> a
+'m'
+>>> a = "m"
+>>> a
+'m'
+>>> a = 20
+>>> a+30
+50
+>>> c = a+30
+>>> c
+50
+>>> c
+50
+>>> c = a*30
+>>> c
+600
+>>> name  = "Praveen"
+>>> name
+'Praveen'
+>>> x = true
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined
+>>> x = True
+>>> x
+True
+>>> y = False
+>>> y
+False
+>>>
+
+Function in python
+named block which accepts input , performs calculations and returns result.
+
+>>> a = 20
+>>> b = 30
+>>> result = a+b
+>>> result
+50
+>>> a = 60
+>>> b = 70
+>>> result = a+b
+>>> result
+130
+>>> def addition(a,b):
+...     result = a+b
+...     return result
+...
+>>> print(addition(100,50))
+150
+>>> print(addition(100,150))
+250
+>>> print(addition(45,167))
+212
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
