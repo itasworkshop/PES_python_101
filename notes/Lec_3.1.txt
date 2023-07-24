@@ -1,0 +1,140 @@
+Conditional Statements
+allows us to decide flow of the program based on given condition.
+
+if-else
+
+more than one condition checking
+
+if-elif-else
+
+>>> age = 24
+>>> if(age>=18):
+...     print("Yes ,can vote.")
+... else:
+...     print("No ,can not vote.")
+...
+Yes ,can vote.
+>>> if(age>=18):
+...     print("Yes ,can vote.")
+... elif(age>=35 and age<=50):
+...     print("Yes ,can vote twice.")
+... else:
+...     print("No ,can not vote.")
+...
+Yes ,can vote.
+>>>
+
+Advanced data types in python
+
+1) List
+comma seperated items in square bracket
+
+>>> mylist = [1,2,3,56,45]
+>>> mylist
+[1, 2, 3, 56, 45]
+>>> for i in mylist:
+...     print(i)
+...
+1
+2
+3
+56
+45
+>>> print(mylist)
+[1, 2, 3, 56, 45]
+>>> for i in mylist:
+...     print(i)
+...
+1
+2
+3
+56
+45
+>>> for i in mylist:
+...     print(i**2)
+...
+1
+4
+9
+3136
+2025
+>>> mylist
+[1, 2, 3, 56, 45]
+>>> for i in mylist:
+...     print(i+5)
+...
+6
+7
+8
+61
+50
+>>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+1) WAP to find out if someone has passed the exam or not?
+
+2) WAP to calculcate student grade if he/she scored 75 marks based on below rules
+- 90 ----- 100 ---> A
+- 80 ----- 90 ---> B
+- 70 ----- 80 ---> C
+ otherwsie Failed
+
+3) WAP to print all the even items from list.
+
+4) WAP to perform addition of all the items in a given list.
+
+5) WAP to perform addition of all the odd items in a given list.
