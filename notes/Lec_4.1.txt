@@ -1,0 +1,112 @@
+Methods of List
+
+1) append()
+adds valies at last
+
+2) remove()
+removes specified item from list
+
+3) insert()
+inserts item into list at specified position
+
+4) pop()
+removes last item from list and returns
+
+>>> mylist = [1,2,4,6,8]
+>>> mylist
+[1, 2, 4, 6, 8]
+>>> mylist = [1,2,4,6,"cow"]
+>>> mylist
+[1, 2, 4, 6, 'cow']
+>>> mylist = [1,2,4,6,"cow",True]
+>>> mylist
+[1, 2, 4, 6, 'cow', True]
+>>> mylist = [1,2,4,6]
+>>> mylist
+[1, 2, 4, 6]
+>>> mylist.append(5)
+>>> mylist
+[1, 2, 4, 6, 5]
+>>> mylist
+[1, 2, 4, 6, 5]
+>>> mylist.append(75)
+>>> mylist
+[1, 2, 4, 6, 5, 75]
+>>> mylist.remove(4)
+>>> mylist
+[1, 2, 6, 5, 75]
+>>> mylist = [1,2,4,6,4]
+>>> mylist
+[1, 2, 4, 6, 4]
+>>> mylist.remove(4)
+>>> mylist
+[1, 2, 6, 4]
+>>> mylist = [1,2,4,6,"cow",True]
+>>> mylist
+[1, 2, 4, 6, 'cow', True]
+>>> mylist.pop()
+True
+>>> mylist
+[1, 2, 4, 6, 'cow']
+>>> mylist.pop()
+'cow'
+>>> mylist
+[1, 2, 4, 6]
+>>> mylist.insert(2,45)
+>>> mylist
+[1, 2, 45, 4, 6]
+>>> newlist = []
+>>> newlist
+[]
+
+2) Tuple in python
+
+tuple are comma separated items but immutable
+tuple are also indexed
+
+>>> mylist.index('cow')
+4
+>>> mylist
+[1, 2, 4, 6, 'cow', True]
+>>> mytup = (1,2,3,4,5)
+>>> mytup
+(1, 2, 3, 4, 5)
+>>> mylist = [1,2,4,5,6,7]
+>>> mylist
+[1, 2, 4, 5, 6, 7]
+>>> mylist[2]
+4
+>>> mylist[5]
+7
+>>> mytup[2]
+3
+>>> mylist
+[1, 2, 4, 5, 6, 7]
+>>> mytup
+(1, 2, 3, 4, 5)
+>>> mytup[2] = 55
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+>>> mylist[2] = 55
+>>> mylist
+[1, 2, 55, 5, 6, 7]
+>>> mytup
+(1, 2, 3, 4, 5)
+>>> mytup[2] = 55
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+>>>
+
+
+
+
+
+
+
+
+
+
+
+

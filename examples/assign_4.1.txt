@@ -1,0 +1,33 @@
+1) WAP to print list of even items from a given list.
+
+mylist1 = [1,34,22,56,78,33,12]
+newlist = []
+
+for i in mylist1:
+    if (i%2 == 0):
+        newlist.append(i)
+
+print(newlist)
+
+2) WAP to print two lists one containing only even items another one containing only odd items out of given list.
+
+3) WAP to print list items along with their position.
+
+4) WAP to print even indexed items.
+
+5) WAP to reverse order of given list.
+i) with reverse() function
+ii) without reverse function
+
+6) WAP to print two tuples one containing only even items another one containing only odd items out of given tuple.
+
+
+
+
+
+
+
+
+
+
+
