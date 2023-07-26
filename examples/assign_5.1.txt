@@ -1,0 +1,12 @@
+1) WAP to filter even position item tuple and odd position items tuple from a given tuple.
+
+
+
+
+
+
+
+
+
+
+
