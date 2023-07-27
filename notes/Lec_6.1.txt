@@ -1,0 +1,144 @@
+Set in python
+
+>>> myset = {1,2,3,4,5}
+>>> myset
+{1, 2, 3, 4, 5}
+>>> myset = {1,2,3,4,5,4,5,5}
+>>> myset
+{1, 2, 3, 4, 5}
+>>> myset[1]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'set' object is not subscriptable
+>>> for i in myset:
+...     print(i)
+...
+1
+2
+3
+4
+5
+>>>
+>>> mylist = ["suraj","raj","tom"]
+>>>
+>>> mylist
+['suraj', 'raj', 'tom']
+>>> mylist
+['suraj', 'raj', 'tom', 'tom']
+>>>
+
+set are unordered and mutable
+1) add()
+>>> myset = set(mylist)
+>>> myset
+{'suraj', 'tom', 'raj'}
+>>> myset.add("Sam")
+>>> myset
+{'suraj', 'Sam', 'tom', 'raj'}
+>>> myset[0] = "sam"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'set' object does not support item assignment
+
+2) clear()
+
+>>> myset.clear()
+>>> myset
+set()
+>>>
+
+1) Union
+>>> myset1|myset2
+{1, 2, 3, 5, 6, 7, 8}
+
+2) Intersection
+>>> myset1&myset2
+{3, 5, 6}
+
+3) Difference
+>>> myset1 - myset2
+{1, 2}
+>>> myset2 - myset1
+{8, 7}
+>>>
+
+4) Dictionary in python
+
+>>> info = {111:"raj",222:"suraj",333:"tom"}
+>>> info
+{111: 'raj', 222: 'suraj', 333: 'tom'}
+>>> info[1]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 1
+>>> info[111]
+'raj'
+>>> info[333]
+'tom'
+>>> info[444]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 444
+>>> info[444] = "Sam"
+>>> info
+{111: 'raj', 222: 'suraj', 333: 'tom', 444: 'Sam'}
+>>> for i in info:
+...     print(i)
+...
+111
+222
+333
+444
+>>> for i,j in info:
+...     print(i,j)
+...
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: cannot unpack non-iterable int object
+>>> for i,j in info.values():
+...     print(i,j)
+...
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: too many values to unpack (expected 2)
+>>> for i in info.keys():
+...     print(i)
+...
+111
+222
+333
+444
+>>> for i in info.values():
+...     print(i)
+...
+raj
+suraj
+tom
+Sam
+>>> for i,j in info.items():
+...     print(i,j)
+...
+111 raj
+222 suraj
+333 tom
+444 Sam
+>>> info
+{111: 'raj', 222: 'suraj', 333: 'tom', 444: 'Sam'}
+>>> info[444] = "Prince"
+>>> info
+{111: 'raj', 222: 'suraj', 333: 'tom', 444: 'Prince'}
+>>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
