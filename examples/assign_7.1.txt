@@ -4,3 +4,5 @@ d1 = {11:"Raj",22:"Suraj",33:"Tom"}
 d2 = {11:"Reddy",22:"Singh",33:"John"}
 
 2) WAP to create student class with at least 3 properties and 2 functionalities.
+
+3) WAP to calcuate student's grade using oops.
