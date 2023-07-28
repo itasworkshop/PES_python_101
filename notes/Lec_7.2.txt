@@ -1,0 +1,12 @@
+OOPS object oriented programming
+
+says that whenever you develop software, consider everything as real world object.
+
+Object
+1) Properties/state/data
+2) Functionalities/behaviour
+
+class
+class is blueprint to create objects
+
+

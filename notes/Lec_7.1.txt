@@ -1,0 +1,46 @@
+--> pass keyword
+>>> age = 25
+>>> if age>18:
+...     print("yes")
+... else:
+...     print("no")
+...
+yes
+>>> if age>18:
+...     pass
+... else:
+...     print("no")
+...
+
+
+--> concatenation
+>>> name = "rajesh"
+>>> lname = "singh"
+>>> name + lname
+'rajeshsingh'
+>>> mylist = [1,2,34]
+>>> mylist2 = [2,3,56]
+>>> mylist+mylist2
+[1, 2, 34, 2, 3, 56]
+>>> mytup1 = (1,2,34)
+>>> mytup2 = (2,3,56)
+>>>
+>>> mytup1+mytup2
+(1, 2, 34, 2, 3, 56)
+
+
+set and dictionary do not support concetenation
+
+>>> d1 = {11:"raj"}
+>>> d2 = {22:"suraj"}
+>>> d1+d2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'dict' and 'dict'
+>>> myset1 = {1,2,3}
+>>> myset2 = {3,4,6}
+>>> myset1+myset2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'set' and 'set'
+>>>
